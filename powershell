@@ -1,0 +1,1 @@
+Get-EventLog -LogName Security -InstanceID 4624 | Select-Object -Property TimeGenerated,Index,@{Name="UserName";Expression={ $_.ReplacementStrings[5]}},@{Name="IP";Expression={ $_.ReplacementStrings[18]}}
