@@ -1,0 +1,5 @@
+/usr/local/bin/ss-server -a nobody -u -c /etc/shadowsocks-libev/config.json -f /var/run/shadowsocks-server/pid
+
+
+
+https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
