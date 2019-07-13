@@ -3,3 +3,5 @@
 
 
 https://raw.githubusercontent.com/teddysun/shadowsocks_install/master/shadowsocks-libev.sh
+
+screen -S scan_11 -d -m masscan -p123 --open -iL new.txt --rate=10 -oX xx.txt
